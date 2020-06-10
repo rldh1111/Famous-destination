@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World-Famous Tourist Attractions</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/button.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style type="text/css">
+		.button{
+			left: 42%
+		}
+		#h1{
+
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		function h1(){
+			$('*').css('border', '0');
+			$('h1').css('border', '5px solid red');
+		}
+		function div(){
+			$('*').css('border', '0');
+			$('div').css('border', '5px solid blue');
+
+		}
+		function img(){
+			$('*').css('border', '0');
+			$('img').css('border', '5px solid yellow');
+		}
+		function a(){
+			$('*').css('border', '0');
+			$('a').css('border', '5px solid green');
+
+		}
+		function ul(){
+			$('*').css('border', '0');
+			$('ul').css('border', '5px solid purple');
+		}
+		function li(){
+			$('*').css('border', '0');
+			$('li').css('border', '5px solid orange');
+		}
+
+
+	</script>
+
+</head>
+
+<body>
+	<input type="hidden" id="count" value="1">
+	<div id="wrapper">
+		<nav id="nav">
+			<ul>
+				<li class="home"><a href="main.html">Home</a></li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Chap2</div>
+					<div class="dropdown-content">
+						<a href="#" onclick="h1()">h1</a>
+						<a href="#" onclick="div()">div</a>
+						<a href="#" onclick="a()">a</a>
+						<a href="#" onclick="img()">img</a>
+						<a href="#" onclick="ul()">ul</a>
+						<a href="#" onclick="li()">li</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Chap3</div>
+					<div class="dropdown-content">
+						<a href="#">header</a>
+						<a href="#">nav</a>
+						<a href="#">section</a>
+						<a href="#">footer</a>
+						<a href="#">button</a>
+						<a href="#">color</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Chap4</div>
+					<div class="dropdown-content">
+						<a href="#">color</a>
+						<a href="#">font-size</a>
+						<a href="#">font-family</a>
+						<a href="#">margin</a>
+						<a href="#">text-align</a>
+						<a href="#">text-decoration</a>
+						<a href="#">link</a>
+						<a href="#">import</a>
+						<a href="#">selector</a>
+						<a href="#">id selector</a>
+						<a href="#">class selector</a>
+						<a href="#">hover</a>
+						<a href="#">padding</a>
+						<a href="#">border</a>
+						<a href="#">background-image</a>
+						<a href="#">background</a>
+						<a href="#">cursor</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Chap5</div>
+					<div class="dropdown-content">
+						<a href="#">display</a>
+						<a href="#">position</a>
+						<a href="#">left</a>
+						<a href="#">top</a>
+						<a href="#">button</a>
+						<a href="#">top</a>
+						<a href="#">float</a>
+						<a href="#">z-index</a>
+						<a href="#">width</a>
+						<a href="#">height</a>
+						<a href="#">@keyframes</a>
+						<a href="#">transform</a>
+						<a href="#">transition</a>
+						<a href="#">animation</a>
+						<a href="#">height</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Chap6</div>
+					<div class="dropdown-content">
+						<a href="#">onclick</a>
+						<a href="#">alert</a>
+						<a href="#">function</a>
+						<a href="#">var</a>
+					</div>
+				</li>
+	<!-- 			<li class="dropdown">
+					<div class="dropdown-menu">Chap7</div>
+					<div class="dropdown-content">
+						<a href="#">Menu1-1</a>
+						<a href="#">Menu1-2</a>
+						<a href="#">Menu1-3</a>
+						<a href="#">Menu1-4</a>
+						<a href="#">Menu1-4</a>
+						<a href="#">Menu1-4</a>
+						<a href="#">Menu1-4</a>
+						<a href="#">Menu1-4</a>
+						<a href="#">Menu1-4</a>
+					</div>
+				</li> -->
+				<li class="dropdown">
+					<div class="dropdown-menu">Chap8</div>
+					<div class="dropdown-content">
+						<a href="#">동적 css</a>
+
+					</div>
+				</li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Other</div>
+					<div class="dropdown-content">
+						<a href="#">max-width</a>
+						<a href="#">opacity</a>
+						<a href="#">@media</a>
+						<a href="#">:before</a>
+						<a href="#">:after</a>
+						<a href="#">line-height</a>
+						<a href="#">font-weight</a>
+						<a href="#">perspective</a>
+						<a href="#">jqueryt</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Reset</div>
+				</li>
+			</ul>
+		</nav>
+		<div id="header">
+			<h1>The site is a collection of World-Famous Tourist Attractionscreated in web programming classes.</h1>
+		</div>
+		<section id="main">
+			<img src="img/mainImage.png">
+		</section>
+		<footer>
+			<div class="button">
+				<a href="Tourist_destination.html"><button id="showButton" onclick="buttonClick();">
+				View More</button></a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+img{
+	width: 800px;
+	height: 500px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-size: 2rem;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+#header{
+	padding-top: 130px;
+	padding-bottom: 50px;
+}
+#header, #main{
+	animation: fadeIn 2s;
+	
+}
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}

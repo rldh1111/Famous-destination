@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/thumbnail.css">
+	<link rel="stylesheet" type="text/css" href="css/button.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<title></title>
+	<style type="text/css">
+	</style>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	var count = 1;
+	function buttonClick(){
+		count += 1;
+		$("#count").val(count);
+		$("#button"+count).show();
+
+	}
+
+</script>
+<body>
+
+	<div id="wrapper">
+		<nav id="nav">
+			<ul>
+				<li class="home"><a href="main.html">Home</a></li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Menu1</div>
+					<div class="dropdown-content">
+						<a href="#">Menu1-1</a>
+						<a href="#">Menu1-2</a>
+						<a href="#">Menu1-3</a>
+						<a href="#">Menu1-4</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Menu2</div>
+					<div class="dropdown-content">
+						<a href="#">Menu2-1</a>
+						<a href="#">Menu2-2</a>
+						<a href="#">Menu2-3</a>
+						<a href="#">Menu2-4</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<div class="dropdown-menu">Menu3</div>
+					<div class="dropdown-content">
+						<a href="#">Menu3-1</a>
+						<a href="#">Menu3-2</a>
+						<a href="#">Menu3-3</a>
+						<a href="#">Menu3-4</a>
+					</div>
+				</li>
+				<li class="dropdown" >
+					<div class="dropdown-menu">Menu4</div>
+				</li>
+
+			</ul>
+		</nav>
+		<section id="main">
+
+			<section class="thumbnails" >
+				<div>
+					<div class="layout">
+						<img src="img/Barbay Dos.jpg" alt="" />
+						<h1>Barbados</h1>
+						<div class="caption">
+							<h3>Barbados</h3>
+							<p>Barbados is an island country in the Lesser Antilles of the West Indies, in the Caribbean region of North America.</p><a href="https://en.wikipedia.org/wiki/Barbados" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Barcelona.jpg" alt="" />
+						<h1>Barcelona</h1>
+						<div class="caption">
+							<h3>Barcelona</h3>
+							<p>Barcelona is a city on the coast of northeastern Spain.</p><a href="https://en.wikipedia.org/wiki/Barcelona" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Canadian Rocky Mountains.jpg" alt="" />
+						<h1>Canadian Rocky Mountains</h1>
+						<div class="caption">
+							<h3>Canadian Rocky Mountains</h3>
+							<p>The Canadian Rockies (French: Rocheuses canadiennes) or Canadian Rocky Mountains comprise the Canadian segment of the North American Rocky Mountains. </p><a href="https://en.wikipedia.org/wiki/Canadian_Rockies" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Chichen Itza.jpg" alt="" />
+						<h1>Chichen Itza</h1>
+						<div class="caption">
+							<h3>Chichen Itza</h3>
+							<p>Chichen Itza was a large pre-Columbian city built by the Maya people of the Terminal Classic period. The archaeological site is located in Tinúm Municipality, Yucatán State, Mexico.</p><a href="https://en.wikipedia.org/wiki/Chichen_Itza" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Cape Town.jpg" alt="" />
+						<h1>Cape Town</h1>
+						<div class="caption">
+							<h3>Cape Town</h3>
+							<p>Cape Town (Afrikaans: Kaapstad [ˈkɑːpstat]; Xhosa: iKapa;) is the second most populous city in South Africa after Johannesburg and also the legislative capital of South Africa. </p><a href="https://en.wikipedia.org/wiki/Cape_Town" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Cermatt.jpg" alt="" />
+						<h1>Zermatt</h1>
+						<div class="caption">
+							<h3>Zermatt</h3>
+							<p>Zermatt is a municipality in the district of Visp in the German-speaking section of the canton of Valais in Switzerland. It has a population of about 5,800 inhabitants and is classified as a town by the Swiss Federal Statistical Office (FSO).</p><a href="https://www.zermatt.ch/en" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thumbnails" id="button2" style="display: none;">
+				<div>
+					<div class="layout">
+						<img src="img/Abu Simbel.jpg" alt="" />
+						<h1>Abu Simbel</h1>
+						<div class="caption">
+							<h3>Abu Simbel</h3>
+							<p>Abu Simbel is in southern Egypt, not far from the border with Sudan.</p><a href="https://en.wikipedia.org/wiki/Abu_Simbel" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Alaska.jpg" alt="" />
+						<h1>Alaska</h1>
+						<div class="caption">
+							<h3>Alaska</h3>
+							<p>Alaska is a state located in the northwest extremity of the United States West Coast, just across the Bering Strait from Asia.</p><a href="http://www.alaska.gov/" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Angel Falls.jpg" alt="" />
+						<h1>Angel Falls</h1>
+						<div class="caption">
+							<h3>Angel Falls</h3>
+							<p>Angel Falls (Spanish: Salto Ángel; Pemon language: Kerepakupai Meru meaning "waterfall of the deepest place", or Parakupá Vená, meaning "the fall from the highest point") is a waterfall in Venezuela.</p><a href="https://en.wikipedia.org/wiki/Angel_Falls" class="read-more"  target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Angkor Wat.jpg" alt="" />
+						<h1>Angkor Wat</h1>
+						<div class="caption">
+							<h3>Angkor Wat</h3>
+							<p>Angkor Wat is a temple complex in Cambodia and is the largest religious monument in the world, on a site measuring 162.6 hectares.</p><a href="https://en.wikipedia.org/wiki/Angkor_Wat" class="read-more"  target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Auckland.jpg" alt="" />
+						<h1>Auckland</h1>
+						<div class="caption">
+							<h3>Auckland</h3>
+							<p>Auckland (/ˈɔːklənd/ AWK-lənd; Māori: Tāmaki Makaurau) is a large metropolitan city in the North Island of New Zealand. The most populous urban area in the country, Auckland has an urban population of about 1,467,800 (June 2019).</p><a href="http://angkor.com.kh/" class="read-more"  target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Bangkok.jpg" alt="" />
+						<h1>Bangkok</h1>
+						<div class="caption">
+							<h3>Bangkok</h3>
+							<p>Bangkok[a] is the capital and most populous city of Thailand. It is known in Thai as Krung Thep Maha Nakhon[b] or simply Krung Thep.</p><a href="https://en.wikipedia.org/wiki/Bangkok" class="read-more" target="_blank"  >Read More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thumbnails" id="button3" style="display: none;">
+				<div>
+					<div class="layout">
+						<img src="img/Disneyland.jpg" alt="" />
+						<h1>Disneyland</h1>
+						<div class="caption">
+							<h3>Disneyland</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Dubai.jpg" alt="" />
+						<h1>Dubai</h1>
+						<div class="caption">
+							<h3>Dubai</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Galapagos Islands.jpg" alt="" />
+						<h1>Galapagos Islands</h1>
+						<div class="caption">
+							<h3>Galapagos Islands</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Golden Temple.jpg" alt="" />
+						<h1>Golden Temple</h1>
+						<div class="caption">
+							<h3>Golden Temple</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Grand Canyon.jpg" alt="" />
+						<h1>Grand Canyon</h1>
+						<div class="caption">
+							<h3>Grand Canyon</h3>
+							<p>Grand Canyon National Park is a national park in Arizona, the United States.</p><a href="https://www.nps.gov/grca/index.htm" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Great Barrier Reefd.jpg" alt="" />
+						<h1>Great Barrier Reef</h1>
+						<div class="caption">
+							<h3>Great Barrier Reef</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thumbnails" id="button4" style="display: none;">
+				<div>
+					<div class="layout">
+						<img src="img/Great Wall.jpg" alt="" />
+						<h1>Great Wall</h1>
+						<div class="caption">
+							<h3>Great Wall</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Hawaii.jpg" alt="" />
+						<h1>Hawaii</h1>
+						<div class="caption">
+							<h3>Hawaii</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Himalayan Mountains.jpg" alt="" />
+						<h1>Himalayan Mountains</h1>
+						<div class="caption">
+							<h3>Himalayan Mountains</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Volley.jpg" alt="" />
+						<h1>Volley</h1>
+						<div class="caption">
+							<h3>Volley</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Hong Kong.jpg" alt="" />
+						<h1>Hong Kong</h1>
+						<div class="caption">
+							<h3>Hong Kong</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Iceland.jpg" alt="" />
+						<h1>Iceland</h1>
+						<div class="caption">
+							<h3>Iceland</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thumbnails" id="button5" style="display: none;">
+				<div>
+					<div class="layout">
+						<img src="img/Iguazu Falls.jpg" alt="" />
+						<h1>Iguazu Falls</h1>
+						<div class="caption">
+							<h3>Iguazu Falls</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Las Vegas.jpg" alt="" />
+						<h1>Las Vegas</h1>
+						<div class="caption">
+							<h3>Las Vegas</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Luxor.jpg" alt="" />
+						<h1>Luxor</h1>
+						<div class="caption">
+							<h3>Luxor</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Machu Picchu.jpg" alt="" />
+						<h1>Machu Picchu</h1>
+						<div class="caption">
+							<h3>Machu Picchu</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Maldives.jpg" alt="" />
+						<h1>Maldives</h1>
+						<div class="caption">
+							<h3>Maldives</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Masai Mara.jpg" alt="" />
+						<h1>Masai Mara</h1>
+						<div class="caption">
+							<h3>Masai Mara</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thumbnails" id="button6" style="display: none;">
+				<div>
+					<div class="layout">
+						<img src="img/New York.jpg" alt="" />
+						<h1>New York</h1>
+						<div class="caption">
+							<h3>New York</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Niagara Falls.jpg" alt="" />
+						<h1>Niagara Falls</h1>
+						<div class="caption">
+							<h3>Niagara Falls</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Paris.jpg" alt="" />
+						<h1>Paris</h1>
+						<div class="caption">
+							<h3>Paris</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Petra.jpg" alt="" />
+						<h1>Petra</h1>
+						<div class="caption">
+							<h3>Petra</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Pyramid.jpg" alt="" />
+						<h1>Pyramid</h1>
+						<div class="caption">
+							<h3>Pyramid</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Qin Shi Huang Bottle Dragon Gang.jpg" alt="" />
+						<h1>Qin Shi Huang Bottle Dragon Gang</h1>
+						<div class="caption">
+							<h3>Qin Shi Huang Bottle Dragon Gang</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thumbnails" id="button7" style="display: none;">
+				<div>
+					<div class="layout">
+						<img src="img/Radigue Island.jpg" alt="" />
+						<h1>Radigue Island</h1>
+						<div class="caption">
+							<h3>Radigue Island</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Rio de Janeiro.jpg" alt="" />
+						<h1>Rio de Janeiro</h1>
+						<div class="caption">
+							<h3>Rio de Janeiro</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Rome.jpg" alt="" />
+						<h1>Rome</h1>
+						<div class="caption">
+							<h3>Rome</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/San Francisco.jpg" alt="" />
+						<h1>San Francisco</h1>
+						<div class="caption">
+							<h3>San Francisco</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Singapore.jpg" alt="" />
+						<h1>Singapore</h1>
+						<div class="caption">
+							<h3>Singapore</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/South Island.jpg" alt="" />
+						<h1>South Island</h1>
+						<div class="caption">
+							<h3>South Island</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="thumbnails" id="button8" style="display: none;">
+				<div>
+					<div class="layout">
+						<img src="img/Sri Lanka.jpg" alt="" />
+						<h1>Sri Lanka</h1>
+						<div class="caption">
+							<h3>Sri Lanka</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Sydney.jpg" alt="" />
+						<h1>Sydney</h1>
+						<div class="caption">
+							<h3>Sydney</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Taj Mahal.jpg" alt="" />
+						<h1>Taj Mahal</h1>
+						<div class="caption">
+							<h3>Taj Mahal</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Uluru.jpg" alt="" />
+						<h1>Uluru</h1>
+						<div class="caption">
+							<h3>Uluru</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="layout">
+						<img src="img/Venice.jpg" alt="" />
+						<h1>Venice</h1>
+						<div class="caption">
+							<h3>Venice</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+					<div class="layout">
+						<img src="img/Victoria Falls.jpg" alt="" />
+						<h1>Victoria Falls</h1>
+						<div class="caption">
+							<h3>Victoria Falls</h3>
+							<p></p><a href="#" class="read-more" target="_blank">Read More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</section>
+		<footer>
+			<div class="button">
+				<button id="showButton" onclick="buttonClick();">
+				View More</button>
+				<a href="#wrapper"><button class="top">Top</button></a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
